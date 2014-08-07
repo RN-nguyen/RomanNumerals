@@ -19,4 +19,7 @@ describe RomanNumerals do
 	it "convert 4111 to MMMMCXI" do
 		expect(RomanNumerals.convert(4111)).to eq("MMMMCXI")
 	end
+	it "convert 3357 to MMMCCCLVII" do
+		expect(RomanNumerals.convert(3357)).to eq("MMMCCCLVII")
+	end
 end
